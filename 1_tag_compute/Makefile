@@ -8,3 +8,6 @@ salloc:
 shell:
 	srun --pty bash -i
 
+
+jup:
+	jupyter lab --no-browser --ip=0.0.0.0 --port=2376 --NotebookApp.token='yaml'
